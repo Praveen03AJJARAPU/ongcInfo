@@ -1,6 +1,16 @@
 // const headerTitles = [
 //     {text: 'Production'}
 // ]
+import img1 from './assets/on.jpg'
+import img2 from './assets/logoo.png'
+
+
+export const imgList = [
+  { image: img1, text: "Central mud pump inauguration camp at pal" },
+  { image: img2, text: "Central mud pump inauguration camp at pal" },
+  { image: img1, text: "Central mud pump inauguration camp at pal" },
+  { image: img2, text: "Central mud pump inauguration camp at pal" },
+];
 
 export const headerList = [
     {text: 'Production DPR', link: '#'},
