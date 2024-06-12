@@ -1,4 +1,5 @@
 import './App.css'
+import Header from './components/Header.jsx'
 import Nav from './components/Nav.jsx'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <div>
       <Nav />
+      <Header />
     </div>
   )
 }
