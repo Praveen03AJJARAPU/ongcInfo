@@ -1,6 +1,4 @@
-import React from 'react'
-
-const nav = () => {
+const Nav = () => {
   return (
     <div className="p-4 bg-gray-400 flex items-center justify-between ">
     <div>
