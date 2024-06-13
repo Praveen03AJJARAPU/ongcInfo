@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div>
+    <div className='font-osw'>
       <Nav />
       <Header />
       <div className='flex py-2 items-center text-xl justify-center text-white bg-zinc-400 font-bold'>
