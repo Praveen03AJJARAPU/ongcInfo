@@ -13,7 +13,7 @@ const Nav = () => {
 
   return (
     <div>
-      <div className="p-4 bg-zinc-700 flex items-center justify-between ">
+      {/* <div className="p-4 bg-zinc-700 flex items-center justify-between ">
         <div>
           <p className="text-black font-bold text-md md:text-2xl">
             12/06/2024 (Wednesday)
@@ -27,14 +27,14 @@ const Nav = () => {
             Admin Login
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="bg-zinc-300 justify-between items-center flex gap-11">
-        <div className="flex">
-          <img className="h-[120px] w-[120px] px-3 py-3" src={Logo} alt="" />
+      <div className="bg--300 justify-between items-center flex gap-11">
+        <div className="flex items-center">
+          <img className="h-[80px] w-[80px] rounded-full object-cover px-3 py-3" src={Logo} alt="" />
           <div className="font-bold text-xl items-center py-7 ">
-            <p className="text-blue-800">RAJAHMUNDRY ASSET INTRANET </p>
-            <p className="text-green-800">राजमुंदरी एसेट इंट्रानेट</p>{" "}
+            <p>RAJAHMUNDRY ASSET INTRANET </p>
+            <p>राजमुंदरी एसेट इंट्रानेट</p>{" "}
           </div>
         </div>
         {close ? (
@@ -86,11 +86,11 @@ const Nav = () => {
                     )}
                 </span>
               ))} */}
-              {navitems.map((item, id) => (
+              {/* {navitems.map((item, id) => (
                 <span key={id}>
-                  {" "}
+                  */}
                   {/* Add a unique key */}
-                  <div className="flex gap-1 items-center">
+                  {/* <div className="flex gap-1 items-center">
                     <p>{item.text}</p>
                     <VscTriangleRight size={12} />
                     {item.List.length > 0 &&
@@ -105,7 +105,7 @@ const Nav = () => {
                       )}
                   </div>
                 </span>
-              ))}
+              ))} */}
             </div>
           </div>
         )}
