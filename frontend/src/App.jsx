@@ -10,26 +10,24 @@ function App() {
   
 
   return (
-    <div>
-     {/*<Login />*/
-      <Home />
-     }
+    <div className='font-osw'>
+      <Login />*/
+     
+    {/* // <Home /> */}
       {/* { <Nav />
-      <Header /> */}
-      <div className='flex py-2 items-center text-xl justify-center text-white bg-zinc-400 font-bold'>
-        <p className="px-1">&copy; Designed By Infocom Services Rajahmundry</p>
-      </div> 
+      // <Header />
+      
       
     <div className='font-osw'>
       {/* <Login /> */}
-      <Nav />
-      <Header />
+      {/* <Nav /> */}
+      {/* <Header /> */}
       {/* // <div className='flex py-2 items-center text-xl justify-center text-white bg-zinc-400 font-bold'>
       //   <FaCopyright />
       //   <p className="px-1">Designed By Infocom Services Rajahmundry</p>
       // </div>   */}
-      <Footer />
-    </div> 
+      {/* <Footer /> */}
+    {/* </div>  */}
     </div> 
   );
 }

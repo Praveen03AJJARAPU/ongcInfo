@@ -25,21 +25,6 @@ export const headerList = [
     {text: 'NAS Backup Storage Request', link: '#'},
     {text: 'PDF Tools', link: '#'},
 ]
-export const navitems =[
-    {text: 'IMPORTANT FORMS/DOCS',List: []},
-    {text: 'KNOWLEDGE SHARING SESSION',List: []},
-    {text: 'ONGC PORTALS',List: ['ONGC Reports','Webice','Webmail','ONGC India','Myspace','ONGC Tenders', 'MM Site','ONGC CURE','VIMS']},
-    {text: 'ONGC INTRANET',List: ['Agartala','Ahmedabad','Ankaleshwar','Bokaro','Cambay','Chennai','Western Shore','Delhi','Dehradun','Hazira','Jorhat','Karaikal','Kakinada','Kolkata','Mehsena','Mumbai','Nazira','Silchar','Vododara']},
-    {text: 'DPR',List: ['Production DPR','Drilling DPR', 'Well Services DPR']},
-    {text: 'Collectives',List: ['ASTO','PEU','WDF ONGC','WDF RAJAHMUNDRY','AISCSTEWA','OBC & MOBC EWA']},
-    {text: 'Gallery',List: []},
-    {text: 'Officers Club',List: []},
-    {text: 'Deparments',List: ['Asset Cell','Surface Team','Well Services','Sub Surface Team','Logging Services','Drilling Services','Finance and Accounts','RGL','HR-ER','Health Center','Fire Services','ecurity Services','HSE','Infocom Services','Matrerial Management','Engineering Services','Logistics','Vigiliance','Forward Base']},
-    {text: 'Surface WSS Indent',List: []},
-    {text: 'PRINTER CARTRIDGE REQUEST',List: []},
-    {text: 'HOLIDAY 2024',List: []},
-]
-
 
 export const footerLinks = [
   {text: 'ONGC reports', link: '#'},
@@ -56,4 +41,13 @@ export const footerLinks = [
   {text: 'OBC & MOBC EWA', link: '#'},
   {text: '', link: '#'},
   {text: '', link: '#'},
-]
+  ]
+  
+  export const navLinks = [
+    { text: "Info", link: "#" },
+    { text: "ONGC Intranet", link: "#" },
+    { text: "ONGC Portals", link: "#" },
+    { text: "Gallery", link: "#" },
+    { text: "Holidays", link: "#" },
+    { text: "Catridge Request", link: "#" },
+  ];

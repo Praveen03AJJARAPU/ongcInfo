@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Logo from '../assets/logo.png'
 import { IoMenu } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
-import { navitems } from '../constants';
+// import { navitems } from '../constants';
 import { VscTriangleRight } from "react-icons/vsc";
 const Nav = () => {
   const [close,setClose] = useState(false);
