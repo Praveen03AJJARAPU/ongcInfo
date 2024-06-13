@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         robo : "Roboto",
         osw  : "Oswald"
+      },
+      colors: {
+        mainRed: "#e82828"
       }
     },
   },
