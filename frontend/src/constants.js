@@ -38,5 +38,22 @@ export const navitems =[
     {text: 'Surface WSS Indent',List: []},
     {text: 'PRINTER CARTRIDGE REQUEST',List: []},
     {text: 'HOLIDAY 2024',List: []},
-    
+]
+
+
+export const footerLinks = [
+  {text: 'ONGC reports', link: '#'},
+  {text: 'Webice', link: '#'},
+  {text: 'Webmail', link: '#'},
+  {text: 'Myspace', link: '#'},
+  {text: 'MM sites', link: '#'},
+  {text: 'ONGC cure', link: '#'},
+  {text: 'VIMS', link: '#'},
+  {text: 'ASTO', link: '#'},
+  {text: 'PEU', link: '#'},
+  {text: 'WDF ONGC', link: '#'},
+  {text: 'AISCSTEWA', link: '#'},
+  {text: 'OBC & MOBC EWA', link: '#'},
+  {text: '', link: '#'},
+  {text: '', link: '#'},
 ]

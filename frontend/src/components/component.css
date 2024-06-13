@@ -25,3 +25,41 @@
     transform: translateX(-200%) ;
   }
 }
+
+
+/* footer css */
+@media only screen and (min-width: 600px) {
+  .footer::before {
+    position: absolute;
+  content: '';
+top: -5vh;
+right: 0;
+left: 0;
+
+transform: skewY(2.5deg);
+background-color: #e82828;
+height: 10vh;
+}
+}
+
+.span > a:hover::after {
+  width: 100%;
+transition: all ease .3s;
+}
+.span > a {
+  position: relative;
+  padding-bottom: 2px;
+  width: max-content;
+  cursor: pointer;
+}
+
+.span > a::after {
+  display: block;
+  position: absolute;
+  content: '';
+  bottom:0;
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  transform-origin: left;
+}
