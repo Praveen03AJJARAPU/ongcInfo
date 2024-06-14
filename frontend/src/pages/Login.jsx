@@ -1,4 +1,4 @@
-import img from '../assets/godavari.jpg'
+import img from '../assets/loginPage.jpg'
 import Logo from '../assets/logo.png'
 import { IoEyeSharp } from "react-icons/io5";
 const Login = () => {
@@ -76,6 +76,10 @@ const Login = () => {
 </div>
 
      
+     
+
+   
+
 
    
   );
